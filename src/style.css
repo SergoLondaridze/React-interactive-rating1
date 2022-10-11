@@ -1,0 +1,201 @@
+.container {
+    padding-top: 106px;
+    padding-bottom: 103px;
+    max-width: 1440px;
+    background: #131518;
+}
+
+.cardcontainer {
+    margin: 0 auto;
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.boxcard {
+    margin: 0 auto;
+    width: 341px;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stardiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #262E38;
+}
+
+.txtdiv h1 {
+    color: #FFFFFF;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+.txtdiv p {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #969FAD;
+    width: 90%;
+}
+
+.circlecontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background: #262E38;
+    color: #7C8798;
+}
+
+.circle:hover {
+    background-color: #FC7614;
+    color: #FFFFFF;
+}
+
+.submit {
+    width: 341px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: #FC7614;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.submit:hover {
+    background-color: #FFFFFF;
+    color: #FC7614;
+}
+
+#active {
+    background-color: #7C8798;
+    color: white;
+}
+
+.thankbox {
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 341px;
+    height: 340px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thankbox div {
+    width: 193px;
+    height: 32px;
+    border-radius: 22.5px;
+    background: #262E38;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FC7614;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thankbox h1 {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.thankbox p {
+    margin-top: -26px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #969FAD;
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 375px;
+        height: 700px;
+    }
+
+    .cardcontainer {
+        width: 327px;
+        height: 360px;
+        border-radius: 15px;
+    }
+
+    .boxcard {
+        width: 279px;
+        height: 320px;
+        padding-bottom: 16px;
+    }
+
+    .submit {
+        width: 279px;
+    }
+
+    .circle {
+        width: 42px;
+        height: 42px;
+    }
+
+    .txtdiv h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .txtdiv p {
+        font-family: 'Overpass';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #969FAD;
+        width: 94%;
+    }
+
+    .thankbox {
+        width: 279px;
+        height: 320px;
+        padding-bottom: 16px;
+    }
+
+    .thankbox p {
+        margin-top: -20px;
+    }
+}
