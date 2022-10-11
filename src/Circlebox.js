@@ -1,7 +1,7 @@
 import React from 'react'
 import Circle from './Circle'
 import './style.css'
-export default function Box(props) {
+export default function Circlebox(props) {
     return (
         <div className='circlecontainer'>
             <Circle onClick={() => { props.rate(1) }}>1</Circle>

@@ -15,6 +15,12 @@ export default function Card(props) {
     // const [iterator, setIterator] = useState(0)
     return (
         <div className='cardcontainer'>
+            <div className='boxcard'>
+                <Star />
+                <Text />
+                <Circlebox rate={props.rate} />
+                <Submit submit={props.submit} />
+            </div>
             {/* {(!visable || iterator == 0) && <div>
                 <Star />
                 <Text />
@@ -30,12 +36,7 @@ export default function Card(props) {
                 </div>
             </div>}
             {visable && iterator != 0 && <Thank val={iterator} />} */}
-            <div className='boxcard'>
-                <Star />
-                <Text />
-                <Circlebox rate={props.rate} />
-                <Submit submit={props.submit} />
-            </div>
+
         </div>
     )
 }

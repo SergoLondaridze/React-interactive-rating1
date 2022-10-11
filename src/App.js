@@ -6,16 +6,16 @@ import Result from './Thank';
 import Thank from './Thank';
 function App() {
   const [rate, setRate] = useState(null)
-  const [rated, setRated] = useState(false)
+  const [visable, setVisable] = useState(false)
   function submit() {
     if (rate !== null) {
-      setRated(true)
+      setVisable(true)
     }
   }
   return (
     <div className="container">
-      {!rated && <Card submit={submit} rate={setRate} />}
-      {rated && <Thank rate={rate} />}
+      {!visable && <Card submit={submit} rate={setRate} />}
+      {visable && <Thank rate={rate} />}
     </div>
   );
 }
