@@ -2,7 +2,22 @@
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). 
 
+## Table of contents
 
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+### Screenshot
+![](./src/image/screenshot.png)
 ## Available Scripts
 
 In the project directory, you can run:
@@ -28,8 +43,10 @@ Users should be able to:
 - Flexbox
 - Responsive
 - [React](https://reactjs.org/) - JS library
+
 ## Author
 
 - Linkedin - [Sergo Londaridze](linkedin.com/in/sergo-londaridze-916293171)
+- Frontend Mentor - [@LukaKoride13](https://www.frontendmentor.io/profile/LukaKoridze13)
 
 
