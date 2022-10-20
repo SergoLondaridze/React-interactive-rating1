@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ReactProject2/static/css/main.aaaa6a4a.css",
-    "main.js": "/ReactProject2/static/js/main.9352d551.js",
-    "static/js/787.d4043415.chunk.js": "/ReactProject2/static/js/787.d4043415.chunk.js",
-    "static/media/illustration-thank-you.svg": "/ReactProject2/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
-    "index.html": "/ReactProject2/index.html",
-    "static/media/icon-star.svg": "/ReactProject2/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
-    "main.aaaa6a4a.css.map": "/ReactProject2/static/css/main.aaaa6a4a.css.map",
-    "main.9352d551.js.map": "/ReactProject2/static/js/main.9352d551.js.map",
-    "787.d4043415.chunk.js.map": "/ReactProject2/static/js/787.d4043415.chunk.js.map"
+    "main.css": "/React-interactive-rating1/static/css/main.aaaa6a4a.css",
+    "main.js": "/React-interactive-rating1/static/js/main.409f2fac.js",
+    "static/js/787.d4043415.chunk.js": "/React-interactive-rating1/static/js/787.d4043415.chunk.js",
+    "static/media/illustration-thank-you.svg": "/React-interactive-rating1/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/React-interactive-rating1/index.html",
+    "static/media/icon-star.svg": "/React-interactive-rating1/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
+    "main.aaaa6a4a.css.map": "/React-interactive-rating1/static/css/main.aaaa6a4a.css.map",
+    "main.409f2fac.js.map": "/React-interactive-rating1/static/js/main.409f2fac.js.map",
+    "787.d4043415.chunk.js.map": "/React-interactive-rating1/static/js/787.d4043415.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aaaa6a4a.css",
-    "static/js/main.9352d551.js"
+    "static/js/main.409f2fac.js"
   ]
 }
