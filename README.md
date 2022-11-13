@@ -47,6 +47,6 @@ Users should be able to:
 ## Author
 
 - Linkedin - [Sergo Londaridze](linkedin.com/in/sergo-londaridze-916293171)
-- Frontend Mentor - [@LukaKoride13](https://www.frontendmentor.io/profile/LukaKoridze13)
+
 
 
